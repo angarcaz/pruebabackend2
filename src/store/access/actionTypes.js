@@ -1,0 +1,3 @@
+export const POST_PARAMS = "POST_PARAMS"
+export const POST_PARAMS_OK = "POST_PARAMS_OK"
+export const POST_PARAMS_FAIL = "POST_PARAMS_FAIL"

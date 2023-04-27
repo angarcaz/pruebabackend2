@@ -1,0 +1,7 @@
+export const GET_MUSIC = "GET_MUSIC"
+export const GET_MUSIC_OK = "GET_MUSIC_OK"
+export const GET_MUSIC_FAIL ="GET_MUSIC_FAIL"
+
+export const GET_PRODUCTS = "GET_PRODUCTS"
+export const GET_PRODUCTS_OK = "GET_PRODUCTS_OK"
+export const GET_PRODUCTS_FAIL ="GET_PRODUCTS_FAIL"

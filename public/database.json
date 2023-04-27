@@ -1,0 +1,28 @@
+{
+    "newProducts": [
+      {
+        "name": "1460 Dr.Martens",
+        "price": "130",
+        "description": "Como no te pongas un buen calcetín te vas a cagar",
+        "stars": "5",
+        "image": "https://www.amorshoes.es/wp-content/uploads/2020/11/Bota-Dr-Martens-1460-Roja-20-800x800.jpg",
+        "id": 1
+      },
+      {
+        "name": "Adidas Samba",
+        "price": "40",
+        "description": "Compralas si quieres saber qué tal la textura del suelo",
+        "stars": "3",
+        "image": "https://cdn.idealo.com/folder/Product/6200/0/6200012/s11_produktbild_gross/adidas-samba-og-ftwr-white-core-black-clear-granite-b75806.jpg",
+        "id": 2
+      },
+      {
+        "name": "Martens",
+        "price": "20",
+        "description": "Como no te pongas un buen calcetín te vas a cagar",
+        "stars": "5",
+        "image": "https://www.amorshoes.es/wp-content/uploads/2020/11/Bota-Dr-Martens-1460-Roja-20-800x800.jpg",
+        "id": 3
+      }
+    ]
+  }
