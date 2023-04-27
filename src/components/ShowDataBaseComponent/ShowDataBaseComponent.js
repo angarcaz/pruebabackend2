@@ -16,6 +16,7 @@ const ShowDataBaseComponent = () => {
     return (
     <div>
       {products.map(product => {
+        <h1>Mi back:</h1>
         return (
           <div key={product.id}>
             <h3>{product.name}</h3>

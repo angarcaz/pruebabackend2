@@ -83,7 +83,7 @@ export function getProducts(){
     return async (dispatch)=>{
         dispatch(actionGetProducts())
         try {
-            const response = await axios.get("http://localhost:3000/newProducts")
+            const response = await axios.get("/database.json/newProducts")
             dispatch(actionGetProductsOk(response.data))
         } catch(error){
             dispatch(actionGetProductsFail(error))
