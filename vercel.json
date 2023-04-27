@@ -1,8 +1,0 @@
-{
-    "rewrites": [
-      {
-        "source": "/database.json/:path*",
-        "destination": "/public/database.json/:path*"
-      }
-    ]
-  }

@@ -83,7 +83,7 @@ export function getProducts(){
     return async (dispatch)=>{
         dispatch(actionGetProducts())
         try {
-            const response = await axios.get(`${process.env.PUBLIC_URL}/database.json/newProducts`)
+            const response = await axios.get("https://json-test-beta.vercel.app/newProducts")
             dispatch(actionGetProductsOk(response.data))
         } catch(error){
             dispatch(actionGetProductsFail(error))
