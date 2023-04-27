@@ -1,4 +1,5 @@
 import axios from 'axios'
+import database from '../../database.json'
 import {
     GET_MUSIC,
     GET_MUSIC_OK,
@@ -83,7 +84,7 @@ export function getProducts(){
     return async (dispatch)=>{
         dispatch(actionGetProducts())
         try {
-            const response = await axios.get("/database.json/newProducts?timestamp=+ new Date().getTime())")
+            const response = await axios.get(database.newProducts)
             dispatch(actionGetProductsOk(response.data))
         } catch(error){
             dispatch(actionGetProductsFail(error))
